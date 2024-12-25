@@ -89,7 +89,7 @@ body{
     }
 }
 
-
+@media(max-width:480px){
 #hero {
     background: url('lens1.jpg') no-repeat center center/cover;
     
@@ -104,7 +104,7 @@ body{
         transition: 0.8;
    
 } 
-    
+}
 
     .hero-content {
         background-color: rgba(0, 0, 0, 0.5);

@@ -89,7 +89,7 @@ body{
     }
 }
 
-
+@media(max-width:480px){
 #hero {
     background: url('lens1.jpg') no-repeat center center/cover;
     
@@ -103,13 +103,9 @@ body{
         color: white;
         transition: 0.8;
    
-}
-@media(max-width:480px){
-    #hero{
-        height: 300px;
-        
+} 
     } 
-}
+
     .hero-content {
         background-color: rgba(0, 0, 0, 0.5);
         padding: 50px;

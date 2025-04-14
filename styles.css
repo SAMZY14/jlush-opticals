@@ -169,9 +169,11 @@ h2{
     margin: 0 auto;
 }
 
-
-
-@media (max-width: 480px) {
+@media(max-width: 768px){
+    .product-grid{
+        grid-template-columns: 1fr;
+    }
+}
 
 .product-card {
     flex: 1 1 100%;
@@ -184,7 +186,7 @@ h2{
     width: 100%;
     margin-bottom: 20px;
 }
-}
+
 
 .product-card img {
     max-width: 100%;
@@ -208,6 +210,7 @@ h2{
     margin-top: 60px;
 
 }
+
 .review-section img{
     transition: transform 0.3s ease;
 }

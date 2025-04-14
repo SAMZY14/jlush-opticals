@@ -9,5 +9,4 @@ document.addEventListener("DOMContentLoaded", () => {
       menu.classList.toggle("show");
   
     });
-  
   });

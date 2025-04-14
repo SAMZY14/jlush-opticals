@@ -62,6 +62,10 @@ img{
     position: absolute;
     right: 20px;
 }
+h2{
+    margin-bottom: 50px;
+    font-size: 3rem;
+}
 
 @media (max-width: 768px) {
     .menu-icon {
@@ -104,7 +108,7 @@ img{
         align-items:center ;
         justify-content: center;
         text-align: center;
-        color: white;
+        color: #1a1a40;
         transition: 0.8;
    
 } 
@@ -136,20 +140,31 @@ img{
 .products-section, .review-section, .about-section{
 
     padding: 50px 20px;
-    text-align: center;
+    text-align:center;
     margin-bottom: 50px;
     
 }
 
 
 .product-grid {
-    display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
     max-width: 1200px;
+    margin: 0 auto;
 }
+.review-grid{
+    display: grid;
+    grid-template-columns: auto-fit, minmax(250px,1fr);
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 
 @media (max-width: 480px) {
 
@@ -170,7 +185,7 @@ img{
     max-width: 100%;
     height: 85%;
     border-radius: 5px;
-    object-fit: cover;
+    object-fit:cover;
 }
 .butt{
     display: inline-block;
@@ -198,7 +213,7 @@ img{
     font-size: 3rem;
 }
 .test{
-    font-size: 2rem;
+    font-size: 1rem;
 }
 .contact-form-container {
     background: #ffffff;

@@ -13,6 +13,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+
+
 let cartItems = JSON.parse(localStorage.getItem('cart')) || [];
 
 const cartList = document.getElementById('cart-items');
